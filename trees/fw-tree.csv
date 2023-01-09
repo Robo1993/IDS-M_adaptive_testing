@@ -1,4 +1,5 @@
 # comments can be written using dash #
+#make sure to always set abort to 1 when the test should be ended.
 
 row, item, score, next_row, abort
 1, 1, 0, 4, 1
@@ -8,5 +9,5 @@ row, item, score, next_row, abort
 5, 2, 1, 7, 0
 6, 2, 2, 7, 0
 7, 3, 0, 10, 1
-8, 3, 1, 10, 0
-9, 3, 2, 10, 0
+8, 3, 1, 10, 1
+9, 3, 2, 10, 1
